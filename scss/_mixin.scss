@@ -1,0 +1,7 @@
+
+@mixin colorBack (){
+ background: #181D25;
+}
+body{
+    @include colorBack()
+}
